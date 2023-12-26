@@ -1,0 +1,18 @@
+name: firebase_verify_id_tokens
+description: A package that helps you verify JWT token IDs from firebase logged-in users
+version: 1.0.0
+repository: https://github.com/johnstef99/firebase_verify_id_tokens
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# Add regular dependencies here.
+dependencies:
+  dart_jsonwebtoken: ^2.12.1
+  http: '>=1.0.0'
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
+  shelf: ^1.4.0
+  shelf_router: ^1.1.0
